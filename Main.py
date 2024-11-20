@@ -41,7 +41,7 @@ selected = st.feedback("stars")
 if selected is not None:
     st.markdown(f"You selected {sentiment_mapping[selected]} star(s).")
 
-option=st.sidebar.selectbox("do you want next 7 days reports?",
+option=st.sidebar.selectbox("You can select here ⤵️",
     ("temperature max", "temperature min", "sunset"),
 )
 
